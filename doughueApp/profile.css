@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.profileContainer{
+    width:100%;
+}
+.sectionAndNav{
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    margin-left: 20%;
+}
+.profileSection{
+    margin-top: 35px;
+    margin-left: -174px;
+}
+.profileData{
+    display: flex;
+    justify-content: space-around;
+}
+.profileFeed{
+  display: flex;
+  flex-direction: column;
+    width: 239px;
+    /* background: beige; */
+    height: 122px;
+    align-items: center;
+    margin-left: 52px;
+    padding: 10px;
+    justify-content: end;
+    align-content: center;
+    border: 3px solid lightgoldenrodyellow;
+}
+.sideBar{
+    width: 20%;
+    height: 100vh;
+    background-color: crimson;
+}
+.profileNav{
+    display: flex;
+    height: 13vh;
+    background: aliceblue;
+}
+.ulList{
+    display: flex;
+    list-style: none;
+}
+.ulList li{
+   margin:  15px 26px 17px 97px;
+}
+.serchIcon{
+    position: relative;
+    left: -15px;
+    top: 23px;
+}
+.search{
+    width: 56%;
+    display: flex;
+    padding-left: 45px;
+}
+.search input{
+    height: 41px;
+    margin-top: 12px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    padding: 0 16px;
+    background: whitesmoke;
+}
+.size{
+    font-size: 1.5rem;
+    color: cadetblue;
+    cursor: pointer;
+}
+.size:hover{
+    color: crimson;
+}
+.avtar{
+    width: 39px;
+    /* padding-left: 10px; */
+    position: absolute;
+    /* left: -5px; */
+    right: 190px;
+    top: 9px;
+}
+.name{
+    display: inline;
+    font-size: 14px;
+    position: absolute;
+    white-space: nowrap;
+    right: 83px;
+    top: 21px;
+    color: #000;
+}
+.header{
+    display: flex;
+}
